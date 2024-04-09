@@ -7,7 +7,7 @@
     tools:context=".WriteActivity">
 
     <RelativeLayout
-        android:id="@+id/WritePogressLayout"
+        android:id="@+id/WriteProgressLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FDFCFC">
@@ -22,55 +22,43 @@
     </RelativeLayout>
 
     <EditText
-        android:id="@+id/edtEnterName"
+        android:id="@+id/edtBookName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:hint="enter your name"
+        android:hint="enter Book Name"
         android:textColor="#000000"
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtBookAuthor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtEnterName"
+        android:layout_below="@id/edtBookName"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:hint="enter your email"
+        android:hint="enter Author Name"
         android:textColor="#000000"
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/edtSubject"
+        android:id="@+id/edtBookPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtEmail"
+        android:layout_below="@id/edtBookAuthor"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:hint="which class would you like to recieve"
+        android:hint="enter price"
         android:textColor="#000000"
         android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/edtDateOfClasss"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edtSubject"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:hint="enter the date of your class"
-        android:textColor="#000000"
-        android:textSize="18sp" />
 
 
     <Button
