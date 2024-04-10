@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         btnWrite=findViewById(R.id.btnWrite)
 
         btnRead.setOnClickListener {
-            var intent= Intent(this@MainActivity,ReadActivity::class.java)
+            var intent= Intent(this@MainActivity,SheetActivity::class.java)
             startActivity(intent)
         }
         btnWrite.setOnClickListener {

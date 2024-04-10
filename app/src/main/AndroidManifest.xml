@@ -28,6 +28,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SheetActivity">
+            <!-- Any intent filters or other attributes -->
+        </activity>
+        <activity android:name=".ReadActivity2">
+            <!-- Any intent filters or other attributes -->
+        </activity>
+        <activity android:name=".ReadActivity3">
+            <!-- Any intent filters or other attributes -->
+        </activity>
+
+
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SheetActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:layout_centerVertical="true">
 
         <Button
-            android:id="@+id/btnRead"
+            android:id="@+id/btnSheet1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -28,17 +28,31 @@
 
 
         <Button
-            android:id="@+id/btnWrite"
+            android:id="@+id/btnSheet2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Writer into google drive"
+            android:text="Student Details"
             android:layout_margin="10dp"
             android:background="#CBEEE8"
             android:textColor="#000000"
             android:textStyle="bold"
             android:textSize="20sp"
             android:padding="15dp"
-            android:layout_below="@id/btnRead"
+            android:layout_below="@id/btnSheet1"
+            />
+
+        <Button
+            android:id="@+id/btnSheet3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile details"
+            android:layout_margin="10dp"
+            android:background="#CBEEE8"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:layout_below="@id/btnSheet2"
             />
 
 

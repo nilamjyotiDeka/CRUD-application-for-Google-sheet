@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadActivity3">
+
+    <RelativeLayout
+        android:id="@+id/ReadProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800E0E0E">
+
+        <ProgressBar
+            android:id="@+id/ReadProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReadProgressLayout"
+        android:background="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:showDividers="middle"
+        android:divider="@drawable/cell_border">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ADD8E6">
+
+            <!-- Define your table headers -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mobile name"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:background="@drawable/cell_border"/> <!-- Set background drawable here -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Company"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:background="@drawable/cell_border"/> <!-- Set background drawable here -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Price"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:background="@drawable/cell_border"/> <!-- Set background drawable here -->
+
+
+            <!-- Add more columns as needed -->
+
+        </TableRow>
+
+        <!-- Add more TableRows dynamically for each data row -->
+
+    </TableLayout>
+
+</RelativeLayout>
