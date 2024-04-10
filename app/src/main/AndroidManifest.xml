@@ -37,6 +37,9 @@
         <activity android:name=".ReadActivity3">
             <!-- Any intent filters or other attributes -->
         </activity>
+        <activity android:name=".WriteSheetDispay">
+            <!-- Additional activity configurations if any -->
+        </activity>
 
 
     </application>

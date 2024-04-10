@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnWrite.setOnClickListener {
-            var intent= Intent(this@MainActivity,WriteActivity::class.java)
+            var intent= Intent(this@MainActivity,WriteSheetDispay::class.java)
             startActivity(intent)
         }
 
